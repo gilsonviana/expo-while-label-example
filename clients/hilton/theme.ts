@@ -1,13 +1,13 @@
 import { ClientColors, ClientTheme } from "@/constants/theme";
 
 export const colors: ClientColors = {
-  primary: "#0055A4",
-  secondary: "#FFD100",
+  primary: "#AA3580",
+  secondary: "#AAD100",
 };
 
 const lightTheme: ClientTheme = {
   tabBarStyle: {
-    backgroundColor: colors.secondary,
+    backgroundColor: colors.primary,
   },
 };
 
